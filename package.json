@@ -1,0 +1,58 @@
+{
+  "name": "zarviq",
+  "version": "1.0.0",
+  "description": "Zarviq is a unique ID generator utility for Node.js, providing easy-to-use methods to create unique identifiers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "nodemon test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsajadpp/zarviq.git"
+  },
+  "keywords": [
+    "zarviq",
+    "unique id generator",
+    "unique id",
+    "ID generator",
+    "identifier",
+    "unique identifier",
+    "random ID",
+    "nodejs",
+    "npm package",
+    "typescript",
+    "utility",
+    "crypto",
+    "unique key",
+    "unique code"
+  ],
+  "funding": [
+    {
+      "type": "buymeacoffee",
+      "url": "https://www.buymeacoffee.com/thintry"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/sajadpp"
+    }
+  ],
+  "author": "Sajad PP <sajad@thintry.com> (https://github.com/mrsajadpp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrsajadpp/zarviq/issues",
+    "email": "hello@thintry.com"
+  },
+  "homepage": "https://zarviq.thintry.com/",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  }
+}
