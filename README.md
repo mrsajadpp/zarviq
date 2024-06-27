@@ -1,33 +1,49 @@
-# Auxin Utility Toolkit
+# Zarviq
 
-The Utility Toolkit npm package is a comprehensive collection of utility functions designed to streamline common tasks in Node.js development. Whether you're working on string manipulation, array operations, date/time formatting, or other general-purpose tasks, this toolkit has you covered.
-
-![Grovix Lab and Auxin](https://i.postimg.cc/yd2YxhFN/auxl.png)
+Zarviq is a unique ID generator utility for Node.js, providing easy-to-use methods to create unique identifiers. It combines the current timestamp with a random string to generate a unique ID each time.
 
 ## Installation
 
-You can install the Utility Toolkit npm package via npm:
+You can install Zarviq via npm:
 
 ```bash
-npm install auxin
+npm install zarviq
 ```
 
-## Documentation
+## Usage
 
-For detailed documentation on the available utility functions and their usage, please refer to the [documentation](docs/index.md) included with the package.
+First, require the package in your project and then use the `generateUniqueID` function to create unique IDs.
+
+### Example
+
+```javascript
+const zarviq = require('zarviq');
+
+const uniqueID = zarviq.generateUniqueID();
+console.log(uniqueID); // Outputs a unique ID
+```
+
+### TypeScript
+
+If you are using TypeScript, you can import the function as follows:
+
+```typescript
+import { generateUniqueID } from 'zarviq';
+
+const uniqueID: string = generateUniqueID();
+console.log(uniqueID); // Outputs a unique ID
+```
+
+## API
+
+### `generateUniqueID(): string`
+
+Generates a unique ID by combining the current timestamp with a random string.
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for new utility functions, improvements to existing ones, or any other feedback, feel free to open an issue or submit a pull request.
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-<div align="center">
-
----
-
-Made with ❤️ by Sajad Collaborated with Grovix Lab
-
-</div>
+This project is licensed under the MIT License.

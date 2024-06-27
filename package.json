@@ -1,6 +1,6 @@
 {
   "name": "zarviq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zarviq is a unique ID generator utility for Node.js, providing easy-to-use methods to create unique identifiers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
